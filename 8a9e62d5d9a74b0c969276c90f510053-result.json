@@ -1,0 +1,108 @@
+{
+  "uuid": "1dcfd25003834871ae023ab20adefb44",
+  "historyId": "Authenticate",
+  "fullName": "Authenticate",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "Authenticate"
+    },
+    {
+      "name": "tag",
+      "value": "post"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Authenticate",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have the following credentials:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "4b701f440e604a8abeff7dab1f176772-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686166571217,
+      "stop": 1686166571241
+    },
+    {
+      "name": "When  I send a POST request to authenticate",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166571242,
+      "stop": 1686166571921
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK in authenthication",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166571921,
+      "stop": 1686166571927
+    },
+    {
+      "name": "And  the response body contains an authentication token",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166571927,
+      "stop": 1686166571928
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686166571210,
+  "stop": 1686166571929
+}

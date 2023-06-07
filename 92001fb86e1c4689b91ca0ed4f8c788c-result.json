@@ -1,0 +1,87 @@
+{
+  "uuid": "12e42f936ae241129d4372d0b0119892",
+  "historyId": "List all categories",
+  "fullName": "List all categories",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "fv-az395-691"
+    },
+    {
+      "name": "feature",
+      "value": "ListAllCategories"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "List all categories",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I send a GET request category",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686173322399,
+      "stop": 1686173322489
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686173322489,
+      "stop": 1686173322490
+    },
+    {
+      "name": "And  the response body contains a list of categories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686173322490,
+      "stop": 1686173322493
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686173322399,
+  "stop": 1686173322493
+}

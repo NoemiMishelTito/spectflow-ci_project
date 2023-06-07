@@ -1,0 +1,110 @@
+{
+  "uuid": "f3a80c03fe65468da86c5287e9237f3c",
+  "historyId": "Update a product",
+  "fullName": "Update a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "UpdateAProduct"
+    },
+    {
+      "name": "tag",
+      "value": "put"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "post"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Update a product",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am authenticated with a valid token",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165869349,
+      "stop": 1686165869852
+    },
+    {
+      "name": "When  I send a PUT request to \"http://demostore.gatling.io/api/product/19\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165869852,
+      "stop": 1686165870139
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK after updated",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165870139,
+      "stop": 1686165870139
+    },
+    {
+      "name": "And  the product with ID 19 has been successfully updated",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165870139,
+      "stop": 1686165870290
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686165869349,
+  "stop": 1686165870290
+}

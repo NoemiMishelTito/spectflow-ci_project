@@ -1,0 +1,89 @@
+{
+  "uuid": "231173c9ad3f4a44af1a2cefbe793ac3",
+  "historyId": "Show a product",
+  "fullName": "Show a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "ShowAProduct"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Show a product",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "Failed to parse response content as a product list. Error: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.",
+    "trace": "NUnit.Framework.AssertionException: Failed to parse response content as a product list. Error: Error reading JArray from JsonReader. Current JsonReader item is not an array: StartObject. Path '', line 1, position 1.\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.Fail(String message, Object[] args)\r\n   at NUnit.Framework.Assert.Fail(String message)\r\n   at spectflow_ci_project.ShowAProductStepDefinitions.ThenTheResponseBodyContainsTheProductDetailsForID(Int32 productId) in D:\\TRAINING\\MOJIX\\BOOTCAMP\\resources\\spectflow-ci_project\\spectflow-ci_project\\ShowAProductStepDefinitions.cs:line 64\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I send a GET request a product for ID 19",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167058900,
+      "stop": 1686167059266
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK productId",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167059266,
+      "stop": 1686167059274
+    },
+    {
+      "name": "And  the response body contains the product details for ID 19",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167059274,
+      "stop": 1686167059296
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686167058895,
+  "stop": 1686167059298
+}

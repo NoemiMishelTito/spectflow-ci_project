@@ -1,0 +1,87 @@
+{
+  "uuid": "1f96f3c4738d4fc5b233ef77c25f840d",
+  "historyId": "List all categories",
+  "fullName": "List all categories",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "ListAllCategories"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "List all categories",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I send a GET request category to \"http://demostore.gatling.io/api/category\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165868768,
+      "stop": 1686165869049
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165869049,
+      "stop": 1686165869051
+    },
+    {
+      "name": "And  the response body contains a list of categories",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165869051,
+      "stop": 1686165869052
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686165868768,
+  "stop": 1686165869052
+}
