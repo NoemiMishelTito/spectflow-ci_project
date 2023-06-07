@@ -30,7 +30,7 @@ jobs:
           publish_dir: './spectflow-ci_project/bin/Debug/net6.0/allure-results'
           keep_files: true
           user_name: NoemiMishelTito
-          user_email: misheltito8@gmail.com
+          user_email: mishtito19@gmail.com
           publish_branch: gh_page  
       - name: Test marketplace action
         uses: simple-elf/allure-report-action@master

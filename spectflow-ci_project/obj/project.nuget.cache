@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cKllfyuF4axyAD+UzVHssH/zS8VabPnq57FrpGlez0SYZU5/Mf+wNwUH/4D1kLrRQtjKhAsMXn+8YYpzxhAFBw==",
+  "dgSpecHash": "xVO1WsakGrzWwGj1FZkvtfX6nqsXZK1lHp6WGT+9cN0XPyZ0TbNy9iU0WGL5tjHQfr+TKGQ1304hgfinsIdGCg==",
   "success": true,
   "projectFilePath": "D:\\TRAINING\\MOJIX\\BOOTCAMP\\resources\\spectflow-ci_project\\spectflow-ci_project\\spectflow-ci_project.csproj",
   "expectedPackageFiles": [
@@ -10,8 +10,9 @@
     "C:\\Users\\MSI\\.nuget\\packages\\csvhelper\\27.1.0\\csvhelper.27.1.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\dynamitey\\2.0.9.136\\dynamitey.2.0.9.136.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\gherkin\\19.0.3\\gherkin.19.0.3.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\githubactionsdotnet\\1.0.26\\githubactionsdotnet.1.0.26.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.codecoverage\\17.5.0\\microsoft.codecoverage.17.5.0.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.csharp\\4.4.1\\microsoft.csharp.4.4.1.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.dotnet.platformabstractions\\1.0.3\\microsoft.dotnet.platformabstractions.1.0.3.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.extensions.dependencymodel\\1.0.3\\microsoft.extensions.dependencymodel.1.0.3.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\microsoft.net.test.sdk\\17.5.0\\microsoft.net.test.sdk.17.5.0.nupkg.sha512",
@@ -102,7 +103,8 @@
     "C:\\Users\\MSI\\.nuget\\packages\\system.text.encodings.web\\7.0.0\\system.text.encodings.web.7.0.0.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\system.text.json\\7.0.2\\system.text.json.7.0.2.nupkg.sha512",
     "C:\\Users\\MSI\\.nuget\\packages\\system.threading\\4.3.0\\system.threading.4.3.0.nupkg.sha512",
-    "C:\\Users\\MSI\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512"
+    "C:\\Users\\MSI\\.nuget\\packages\\system.threading.tasks\\4.3.0\\system.threading.tasks.4.3.0.nupkg.sha512",
+    "C:\\Users\\MSI\\.nuget\\packages\\yamldotnet\\13.1.0\\yamldotnet.13.1.0.nupkg.sha512"
   ],
   "logs": []
 }
