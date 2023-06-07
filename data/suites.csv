@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Wed Jun 07 21:28:42 GMT 2023","Wed Jun 07 21:28:43 GMT 2023","532","","","","","","Update a product",""
+"passed","Wed Jun 07 21:28:42 GMT 2023","Wed Jun 07 21:28:42 GMT 2023","173","","","","","","Show a product",""
+"passed","Wed Jun 07 21:28:42 GMT 2023","Wed Jun 07 21:28:42 GMT 2023","94","","","","","","List all categories",""
+"passed","Wed Jun 07 21:28:41 GMT 2023","Wed Jun 07 21:28:42 GMT 2023","855","","","","","","Authenticate",""
