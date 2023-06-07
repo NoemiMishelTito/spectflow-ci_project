@@ -1,0 +1,87 @@
+{
+  "uuid": "582af52af9ac4a92af3ed00f1f684d3d",
+  "historyId": "Show a product",
+  "fullName": "Show a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "ShowAProduct"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Show a product",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I send a GET request to \"http://demostore.gatling.io/api/product?id=19\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165869055,
+      "stop": 1686165869342
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK productId",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165869342,
+      "stop": 1686165869343
+    },
+    {
+      "name": "And  the response body contains the product details for ID 19",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165869343,
+      "stop": 1686165869346
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686165869055,
+  "stop": 1686165869346
+}

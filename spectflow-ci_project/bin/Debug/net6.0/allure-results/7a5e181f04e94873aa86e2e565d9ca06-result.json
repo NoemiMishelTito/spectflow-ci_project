@@ -1,0 +1,89 @@
+{
+  "uuid": "6a1efb3ea90e46bbbb9df08433cbee32",
+  "historyId": "Show a product",
+  "fullName": "Show a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "ShowAProduct"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Show a product",
+  "status": "failed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "  Expected: OK\r\n  But was:  BadRequest\r\n",
+    "trace": "NUnit.Framework.AssertionException:   Expected: OK\r\n  But was:  BadRequest\r\n\r\n   at NUnit.Framework.Assert.ReportFailure(String message)\r\n   at NUnit.Framework.Assert.ReportFailure(ConstraintResult result, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression, String message, Object[] args)\r\n   at NUnit.Framework.Assert.That[TActual](TActual actual, IResolveConstraint expression)\r\n   at spectflow_ci_project.ShowAProductStepDefinitions.ThenIExpectToReceiveAValidResponseWithStatusCodeOKProductId() in D:\\TRAINING\\MOJIX\\BOOTCAMP\\resources\\spectflow-ci_project\\spectflow-ci_project\\ShowAProductStepDefinitions.cs:line 28\r\n   at TechTalk.SpecFlow.Bindings.BindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at Allure.SpecFlowPlugin.AllureBindingInvoker.InvokeBinding(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStepMatch(BindingMatch match, Object[] arguments, TimeSpan& duration)\r\n   at TechTalk.SpecFlow.Infrastructure.TestExecutionEngine.ExecuteStep(IContextManager contextManager, StepInstance stepInstance)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I send a GET request a product for ID 19",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166933221,
+      "stop": 1686166933871
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK productId",
+      "status": "failed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166933871,
+      "stop": 1686166933898
+    },
+    {
+      "name": "And  the response body contains the product details for ID 19",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166933898,
+      "stop": 1686166933899
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686166933216,
+  "stop": 1686166933902
+}

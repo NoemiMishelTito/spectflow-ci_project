@@ -1,0 +1,110 @@
+{
+  "uuid": "3104a3c878a94976b7fda98582a5cf06",
+  "historyId": "Update a product",
+  "fullName": "Update a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "UpdateAProduct"
+    },
+    {
+      "name": "tag",
+      "value": "put"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "post"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Update a product",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I am authenticated with a valid token",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167468508,
+      "stop": 1686167469542
+    },
+    {
+      "name": "When  I send a PUT request for product for ID 19",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167469543,
+      "stop": 1686167469847
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK after updated",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167469847,
+      "stop": 1686167469853
+    },
+    {
+      "name": "And  the product with ID 19 has been successfully updated",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167469853,
+      "stop": 1686167470009
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686167468503,
+  "stop": 1686167470010
+}

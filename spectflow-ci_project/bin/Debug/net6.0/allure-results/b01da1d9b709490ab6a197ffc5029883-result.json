@@ -1,0 +1,108 @@
+{
+  "uuid": "25151b0f45204aaea1769b755259f89a",
+  "historyId": "Authenticate",
+  "fullName": "Authenticate",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "Authenticate"
+    },
+    {
+      "name": "tag",
+      "value": "post"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Authenticate",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given  I have the following credentials:",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "table",
+          "source": "e49eb8be9a7c4c14af0385380cdd781d-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1686165868106,
+      "stop": 1686165868129
+    },
+    {
+      "name": "When  I send a POST request to \"https://demostore.gatling.io/api/authenticate\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165868130,
+      "stop": 1686165868736
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK in authenthication",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165868736,
+      "stop": 1686165868743
+    },
+    {
+      "name": "And  the response body contains an authentication token",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686165868743,
+      "stop": 1686165868744
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686165868099,
+  "stop": 1686165868745
+}

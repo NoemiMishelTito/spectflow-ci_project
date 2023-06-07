@@ -1,0 +1,87 @@
+{
+  "uuid": "f5e73d34f3d749ff8f6c188e7f26b330",
+  "historyId": "Show a product",
+  "fullName": "Show a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "ShowAProduct"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Show a product",
+  "status": "passed",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I send a GET request a product for ID 19",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167116442,
+      "stop": 1686167116771
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK productId",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167116771,
+      "stop": 1686167116777
+    },
+    {
+      "name": "And  the response body contains the product details for ID 19",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686167116778,
+      "stop": 1686167116780
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686167116437,
+  "stop": 1686167116782
+}

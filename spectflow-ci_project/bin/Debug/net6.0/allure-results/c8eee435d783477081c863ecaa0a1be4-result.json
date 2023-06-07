@@ -1,0 +1,88 @@
+{
+  "uuid": "4a729f4976d64debbaa6e54ced91382d",
+  "historyId": "Show a product",
+  "fullName": "Show a product",
+  "labels": [
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "host",
+      "value": "NERSHARIG"
+    },
+    {
+      "name": "feature",
+      "value": "ShowAProduct"
+    },
+    {
+      "name": "tag",
+      "value": "get"
+    },
+    {
+      "name": "tag",
+      "value": "mod3"
+    }
+  ],
+  "links": [],
+  "name": "Show a product",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "No matching step definition found for the step"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "When  I send a GET request a product for ID 19",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166707342,
+      "stop": 1686166707375
+    },
+    {
+      "name": "Then  I expect to receive a valid response with status code OK productId",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166707376,
+      "stop": 1686166707377
+    },
+    {
+      "name": "And  the response body contains the product details for ID 19",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1686166707378,
+      "stop": 1686166707379
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1686166707337,
+  "stop": 1686166707400
+}
